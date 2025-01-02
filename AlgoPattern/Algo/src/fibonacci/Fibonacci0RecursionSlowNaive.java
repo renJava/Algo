@@ -1,5 +1,9 @@
 package fibonacci;
 
+/**
+ * Наивное вычисление числа Фибоначи через парный вызов рекурсии. Сложность экспоненциальная
+ * 2^n
+ */
 public class Fibonacci0RecursionSlowNaive {
     public static void main(String[] args) {
         int n = 45; // Количество чисел Фибоначчи для вычисления
