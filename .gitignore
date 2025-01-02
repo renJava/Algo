@@ -8,7 +8,7 @@
 
 # Intellij
 .idea/
-*.iml
+#*.iml
 *.iws
 
 # Mac
