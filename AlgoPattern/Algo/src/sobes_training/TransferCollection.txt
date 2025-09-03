@@ -1,0 +1,13 @@
+public class TransferCollections {
+    public static void main (String[] args) {
+        List <String> listIn = List.of("1", "2", "3");
+        List <Integer> listOut = change (listIn, Integer::parseInt);
+        listOut.forEach(System.out::println);
+    }
+
+    public static <T, R> List<R> change(List<T>, Functional<T, R> func) {
+        return collection.stream()
+                .map(func)
+                .collect(Collectors.toList());
+    }
+}

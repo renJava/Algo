@@ -8,7 +8,7 @@ import java.util.List;
 
 public class FirstUserStartWithA {
     public static void main(String[] args) {
-        List<User> userList = new ArrayList<>(); // список пользователей
+        List<User> userList = new ArrayList<>();  // Создаем новый список пользователей
         userList.add(new User("Alice"));
         userList.add(new User("Bob"));
         userList.add(new User("Anna"));
@@ -18,6 +18,7 @@ public class FirstUserStartWithA {
         System.out.println(result);
     }
 
+    // Метод для поиска первого пользователя, имя которого начинается с "A"
     private static String findUser(List<User> userList) {
         List<User> usersStartWithA = new ArrayList<>();
         for (User user : userList) {

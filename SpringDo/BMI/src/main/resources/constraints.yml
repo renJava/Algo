@@ -1,0 +1,17 @@
+#bmi:
+#  constraints:
+#
+#    weight:
+#      min: 7.9 # кг
+#      max: 240 # кг
+#      message: "Вес должен быть больше ${bmi.constraints.weight.min} кг и меньше ${bmi.constraints.weight.max} кг включительно"
+#
+#    height:
+#      min: 59.9 # см
+#      max: 245.0 # см
+#      message: "Рост должен быть больше ${bmi.constraints.height.min} см и меньше ${bmi.constraints.height.max} см включительно"
+#
+#    age:
+#      min: 8 # лет
+#      max: 125
+#      message: "Возраст должен быть от ${bmi.constraints.age.min} до ${bmi.constraints.age.max} лет"

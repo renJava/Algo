@@ -6,7 +6,9 @@ import java.util.Scanner;
 public class RecFactorial148_Recursive {
 
     public static BigInteger factorial(int value) {
-        return (value == 0 || value == 1) ? BigInteger.ONE : BigInteger.valueOf(value).multiply(factorial(value - 1));
+        return (value == 0 || value == 1)
+                ? BigInteger.ONE
+                : BigInteger.valueOf(value).multiply(factorial(value - 1));
     }
 
 

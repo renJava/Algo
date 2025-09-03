@@ -1,4 +1,8 @@
 package sobes_training;
+/**
+ * Написать метод findUsers(), который возвращает всех пользователей с username начинающихся с "А"
+ */
+
 
 import java.util.ArrayList;
 import java.util.List;
