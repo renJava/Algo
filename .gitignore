@@ -11,6 +11,7 @@
 #*.iml
 *.iws
 out/
+production/
 
 # Mac
 .DS_Store
