@@ -1,8 +1,6 @@
 package sobes_training.equals_hashcode;
 
-import lombok.Getter;
-
-@Getter
+//@Getter
 public class Branch {
     private String name;
     private String address;
